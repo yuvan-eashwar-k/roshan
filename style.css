@@ -18,6 +18,41 @@ body{
     color: #000;
 }
 
+.nav {
+    height: 8vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home {
+    height: 92vh;
+    background-image: url(img/main_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home ul li {
+    margin: 1rem;
+}
+
+.home ul li a {
+    font-size: 2rem;
+}
+
+#about {
+    height: 100vh;
+}
+
 .row::after{
     content: "";
     display: table;
@@ -114,25 +149,6 @@ body{
     width: 100%;
     height: 20rem;
     margin: 1rem auto;
-}
-
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center; 
-}
-
-.footer p{
-    font-size: 1.6rem;
-    color: white;    
-}
-
-.footer a{
-    font-size: 1.6rem;
-    color: #465caa;
-    text-decoration: none;    
 }
 
 @keyframes moveIn {
